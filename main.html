@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Playlist</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="style-sheet" href="style.css">
 </head>
 
 <body>
@@ -15,37 +15,46 @@
 
     <ul>
         <li><a href="https://www.pagalworld.com.se/files/download/id/64630"
-            target="_blank" >Song 1</a></li>
+        target="_blank">Song 1</a></li>
+
         <li><a href="https://www.pagalworld.com.se/files/download/id/64630"
-            target="_blank" >Song 2</a></li>
+        target="_blank">Song 2</a></li>
+
         <li><a href="https://www.pagalworld.com.se/files/download/id/64630"
-            target="_blank" >Song 3</a></li>
+        target="_blank">Song 3</a></li>
+
         <li><a href="https://www.pagalworld.com.se/files/download/id/64630"
-            target="_blank" >Song 4</a></li>
+        target="_blank">Song 4</a></li>
+
         <li><a href="https://www.pagalworld.com.se/files/download/id/64630"
-            target="_blank">Song 5</a></li>
+        target="_blank">Song 5</a></li>
     </ul>
-        <h2>Now Playing...</h2>
-    <div class="player_container">
 
-        
+    <h2>Now Playing...</h2>
 
-        <video class="video_player" controls>
+    <div class="container">
+
+        <video class="player_one" controls>
             <source
                 src="https://www.w3schools.com/tags/movie.mp4"
                 type="video/mp4">
+            Your browser does not support video.
         </video>
 
         <h2>MP3 songs</h2>
-        <p>Maan Meri Jaan</p>
 
-        <audio class="audio_player" controls>
-            <source src="your-song.mp3" type="audio/mpeg">
-        </audio>
+        <div class="song">
+            <p>Mann Meri Jaan</p>
+
+            <audio class="player_two" controls>
+                <source
+                    src="https://www.pagalworld.com.se/files/download/id/64630"
+                    type="audio/mpeg">
+                
+            </audio>
+        </div>
 
     </div>
-
-    <script src="./script.js"></script>
 
 </body>
 </html>
