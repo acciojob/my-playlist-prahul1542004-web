@@ -22,7 +22,10 @@ a{
             padding: 10px;
             border-radius: 10px;
             margin: 15px;
-        }
+	        display:flex;
+	        justify-content:center;
+	        align-items:center
+ }
 
 .player_two {
     background-color: rgb(255, 255, 255);
